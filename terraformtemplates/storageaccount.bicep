@@ -19,5 +19,4 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   }
 }
 
-@output('storageAccountId', 'Resource ID of the storage account')
-output storageAccountId string = storageAccount.id
+
